@@ -27,8 +27,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="item/:itemId" element={<ItemDetails />} />
-          <Route path="https://recommercee.netlify.app/checkout" element={<Checkout />} />
-          <Route path="https://recommercee.netlify.app/checkout/success" element={<Confirmation />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="checkout/success" element={<Confirmation />} />
         </Routes>
         <CartMenu />
         <Footer />
